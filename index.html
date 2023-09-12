@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>RugeSocial</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-logo">
+        <span>Ruge<span class="colored">Social</span></span>
+      </div>
+      <nav>
+        <a class="nav-item active" id="home" href="#home"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-house-door-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"
+            />
+          </svg>
+        </a>
+        <a class="nav-item" id="explore" href="#explore"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-compass-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"
+            />
+          </svg>
+        </a>
+        <a class="nav-item" id="friends" href="#friends"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-people-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <div class="post-box">
+          <img src="assets/img/my-pp.png" alt="Profile Picture" />
+          <button class="post-button" type="button">Create a post...</button>
+          <div class="post-utils">
+            <button type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-card-image"
+                viewBox="0 0 16 16"
+              >
+                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                <path
+                  d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"
+                />
+              </svg>
+            </button>
+            <button type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-link-45deg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"
+                />
+                <path
+                  d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <article id="post">
+          <header class="post-header">
+            <img class="user-image" src="assets/img/my-pp.png" alt="Profile Picture" />
+            <div class="header-info">
+              <a href="#userprofile" class="post-author">RugeFX</a>
+              <p class="post-info">Suasana di Kota New Jatiwaringin City, Jawa Barat</p>
+            </div>
+          </header>
+          <hr />
+          <div class="post-content">
+            <img class="post-image" src="assets/img/stock-1.jpg" alt="User Image Post" />
+          </div>
+          <hr />
+          <div class="post-engagements">
+            <div class="engagement-buttons">
+              <button class="like-button liked" type="button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-suit-heart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"
+                  />
+                </svg>
+                <span>Like</span>
+              </button>
+              <button class="bookmark-button" type="button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-bookmark-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                  />
+                </svg>
+                <span>Bookmark</span>
+              </button>
+              <div class="comment-container">
+                <input
+                  type="text"
+                  name="comment"
+                  id="commentInput"
+                  placeholder="Add a comment...."
+                />
+                <button class="send-button" type="button">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    class="bi bi-send-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <hr />
+            <div class="post-comments">
+              <button id="commentsToggler">Comments</button>
+              <div id="comments" class="comments-container">
+                <div class="comment-entry">
+                  <img
+                    class="author-image"
+                    src="assets/img/space-pp.png"
+                    alt="Commenter's Profile Picture"
+                  />
+                  <div class="comment-content">
+                    <a href="#commentauthorprofile" class="author">Space</a>
+                    <span class="body">Enak sekali suasananya yaa...</span>
+                  </div>
+                </div>
+                <div class="comment-entry">
+                  <img
+                    class="author-image"
+                    src="assets/img/my-pp.png"
+                    alt="Commenter's Profile
+                  Picture"
+                  />
+                  <div class="comment-content">
+                    <a href="#commentauthorprofile" class="author">RugeFX</a>
+                    <span class="body"
+                      >Betul sekali banh... Lorem, ipsum dolor sit amet consectetur adipisicing
+                      elit. Quam, non similique explicabo itaque voluptatibus unde atque quidem
+                      numquam ex iure consectetur, voluptas rerum? Quisquam ullam temporibus
+                      eveniet, sit omnis, nesciunt, rerum cumque quia eius consequatur dicta animi
+                      debitis mollitia blanditiis perferendis quas quae possimus? Quo accusantium
+                      minus in eaque! Dolores, velit deleniti quos omnis, fugit, suscipit quo nihil
+                      voluptate reiciendis maiores corporis aliquam ducimus quibusdam nam
+                      dignissimos. Et, sunt facilis nisi blanditiis expedita porro exercitationem
+                      debitis dolores veniam delectus dolor unde, eos consequuntur illum inventore
+                      architecto necessitatibus, illo quae? Quaerat porro non repellat obcaecati
+                      repudiandae debitis aliquid neque suscipit? Fugit!</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <aside>
+        <button id="mobileSideToggle" class="mobile-side-toggle closed">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-arrow-left-circle-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+            />
+          </svg>
+        </button>
+        <div class="messages-box">
+          <h2>Messages</h2>
+          <div class="messages">
+            <a class="message-entry">
+              <img src="assets/img/space-pp.png" alt="People's Profile Picture" />
+              <div class="entry-container">
+                <span class="entry-title">Space</span>
+                <span class="entry-content">Hallo semua</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <hr />
+        <div class="friends-box">
+          <h2>Friends</h2>
+          <div class="friends">
+            <a class="friend-entry">
+              <img src="assets/img/space-pp.png" alt="People's Profile Picture" />
+              <div class="friend-container">
+                <span class="friend-name">Space</span>
+                <div class="friend-buttons">
+                  <button class="friend-chat">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="bi bi-chat-dots-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
+                      />
+                    </svg>
+                  </button>
+                  <button class="friend-link">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="bi bi-person-badge-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <span>&copy;RugeFX 2023, Made with love.</span>
+      <a href="https://github.com/RugeFX" target="_blank"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          class="bi bi-github"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+          />
+        </svg>
+      </a>
+    </footer>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
